@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+    margin: auto;
+    display: table;
+}
+title {
+    color: white;
+    text-align: center;
+}
+body {
+    /*C:\Users\Brandon\OneDrive\Desktop\Semester 3 - 09-09-2022\CP1210 Javascript\JavaScript Project\JavaScript-Project\background.jpg*/
+    background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 2em 1em;
+}
+header {
+    border: 2px white;
+    color: white;
+    text-align: center;
+}
+main {
+    position: relative;
+}
+h1 {
+    border: 2px white;
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: red;
+    text-align: center;
+}
+h2#questioncounter {
+    border-style: solid;
+    border-color: white;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 1.5px 2px black;
+}
+h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+div {
+    width: 300px;
+    margin: auto;
+}
+p {
+    color: red;
+    text-align: center;
+}
+label {
+    color: red;
+}
+button {
+    background-color: skyblue;
+}
+button#startbutton {
+    text-align: center;
+}
+.showresult {
+    display: none;
+}
+.start {
+    border: 2px black;
+    color: black;
+}
+.answers {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    box-shadow: 1px 1.5px darkred;
+}
+.username {
+    font-family: fantasy;
+}
+#startbutton {
+    height: 20px;
+    width: 75px;
+}
+div.pageTitle {
+    border-style: solid;
+    border-color: white;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 1.5px 2px black;
+}
+h3.center {
+    border-style: solid;
+    border-color: white;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 1.5px 2px black;
+}
+p.center {
+    padding: 1px;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+h1#username {
+    border-style: solid;
+    border-color: white;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 1.5px 2px black;
+}
+p#questioninfo.questionContent {
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    width: auto;
+    padding: 2px;
+    color: white;
+    font-weight: 400;
+    background-color: red;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    box-shadow: 1.5px 2px black;
+    vertical-align: middle;
+}
+button#a.answers {
+    color: black;
+    font-weight: bold;
+}
+button#b.answers {
+    color: black;
+    font-weight: bold;
+}
+button#c.answers {
+    color: black;
+    font-weight: bold;
+}
+button#d.answers {
+    color: black;
+    font-weight: bold;
+}
