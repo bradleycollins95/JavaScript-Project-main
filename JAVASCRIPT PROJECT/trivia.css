@@ -32,8 +32,14 @@ h1 {
     text-align: center;
 }
 h2 {
-    color: red;
-    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 1.5px 2px black;
 }
 h2#questioncounter {
     border-style: solid;
@@ -43,6 +49,7 @@ h2#questioncounter {
     background-color: red;
     text-shadow: 2px 2px black;
     box-shadow: 1.5px 2px black;
+    border-radius: 5px;
 }
 h3 {
     color: whitesmoke;
@@ -93,6 +100,7 @@ div.pageTitle {
     background-color: red;
     text-shadow: 2px 2px black;
     box-shadow: 1.5px 2px black;
+    border-radius: 5px;
 }
 h3.center {
     border-style: solid;
@@ -102,6 +110,7 @@ h3.center {
     background-color: red;
     text-shadow: 2px 2px black;
     box-shadow: 1.5px 2px black;
+    border-radius: 5px;
 }
 p.center {
     padding: 1px;
@@ -118,10 +127,12 @@ h1#username {
     background-color: red;
     text-shadow: 2px 2px black;
     box-shadow: 1.5px 2px black;
+    border-radius: 5px;
 }
 p#questioninfo.questionContent {
     border-style: solid;
     border-color: white;
+    border-radius: 5px;
     height: 50px;
     width: auto;
     padding: 2px;
@@ -136,16 +147,20 @@ p#questioninfo.questionContent {
 button#a.answers {
     color: black;
     font-weight: bold;
+    border-radius: 5px;
 }
 button#b.answers {
     color: black;
     font-weight: bold;
+    border-radius: 5px;
 }
 button#c.answers {
     color: black;
     font-weight: bold;
+    border-radius: 5px;
 }
 button#d.answers {
     color: black;
     font-weight: bold;
+    border-radius: 5px;
 }
