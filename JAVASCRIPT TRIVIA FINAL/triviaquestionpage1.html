@@ -1,0 +1,71 @@
+<!--Glossary
+h1 - time to start text at the top of page
+h2 - Question counter above question
+class(questionContent) - The question itself
+class(answers) - a to d answers
+h3 - you got / out of 10 correct
+h4 - thanks for playing
+p - play again?
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" type="text/css" href="trivia.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="username">Music Trivia<label</h1>
+        </div>
+        <div5>
+            <img src="https://wallpaperaccess.com/full/6807711.jpg" alt="equalizer">
+        </div5>
+    </header>
+    <form name="quiz" id="quiz"></form>
+    <div class="questions" style="text-align:center">
+        <!--Loops though questions and add using js-->
+        <h2 id="questioncounter">HIDDEN</h2>
+            <p class="questionContent" id="questioninfo">HIDDEN</p>
+            
+            <div>
+                <button class="answers" id="a">HIDDEN</button>
+            </div>
+
+            <div>
+                <button class="answers" id="b">HIDDEN</button>
+                <!--<input type="checkbox">-->
+            </div>
+
+            <div>
+                <button class="answers" id="c">HIDDEN</button>
+                <!--<input type="checkbox">-->
+            </div>
+
+            <div>
+                <button class="answers" id="d">HIDDEN</button>
+                <!--<input type="checkbox">-->
+            </div>
+<!-- 
+            <p id="nextquestion" class="center"><button >START</button></p>
+            <button class="nextq">Next Question</button> -->
+    </div>
+    <div class="container" style="text-align:center">
+        <!-- <button id="submit">Submit Quiz</button> -->
+    </div>
+    <script src="questions.js"></script>
+    <script src="trivia.js"></script>
+</body>
+<footer>
+    <div class="showresult">
+        <h3 id="quizresults">You got out of 10 correct!</h3>
+        <p id="percent">%</p>
+        <h4>Thanks for playing :)</h4>
+        <p class="playagain">Play again?</p>
+        <button class="text-align left" id="playagain">Play Again</button>
+        <button class="text-align right" onclick="window.location.href='triviatitlepage.html';">Return to Homepage</button>
+</footer>
+</html>

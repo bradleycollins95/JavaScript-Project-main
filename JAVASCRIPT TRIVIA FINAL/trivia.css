@@ -1,0 +1,259 @@
+html {
+    height: 100%;
+    margin: auto;
+    display: table;
+}
+#cornercontent {
+    border: 0.1px solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    margin: -410px;
+    padding: auto;
+    position: relative;
+}
+title {
+    color: white;
+    text-align: center;
+}
+body {
+    /*C:\Users\Brandon\OneDrive\Desktop\Semester 3 - 09-09-2022\CP1210 Javascript\JavaScript Project\JavaScript-Project\background.jpg*/
+    background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 2em 1em;
+}
+header {
+    border: 2px white;
+    color: white;
+    text-align: center;
+}
+main {
+    vertical-align: top;
+}
+h1 {
+    border: 2px white;
+    color: white;
+    text-align: center;
+}
+h2 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    box-shadow: 2px 2px darkred;
+}
+h2#questioncounter {
+    border-style: solid;
+    border-color: white;
+    padding: 20px;
+    margin: auto;
+    height: 45px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 1.5px 2px black;
+    border-radius: 5px;
+}
+h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+div {
+    width: 300px;
+    margin: auto;
+    padding: -5px;
+    width: 500px;
+    text-align: center;
+}
+img {
+    height: 250px;
+    width: 500px;
+    border-radius: 5px;
+    border-style: solid;
+    border: 0.5px red;
+}
+.equalizer {
+    padding: -50px;
+}
+p {
+    color: red;
+    text-align: center;
+    padding: 5px;
+}
+label {
+    color: red;
+}
+div.showresult {
+    margin: auto;
+    width: 300px;
+    border-style: solid;
+    border-color: white;
+    text-shadow: 1.5px 1.5px black;
+}
+.start {
+    border: 2px black;
+    color: black;
+}
+.answers {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    box-shadow: 1px 1.5px darkred;
+}
+.username {
+    font-family: fantasy;
+}
+button#startbutton {
+    height: 30px;
+    width: 120px;
+}
+div.pageTitle {
+    border-style: solid;
+    border-color: white;
+    width: 500px;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 2.5px 3px black;
+    border-radius: 5px;
+}
+h3.center {
+    border-style: solid;
+    border-color: white;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 2.5px 3px black;
+    border-radius: 5px;
+}
+p.center {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 1.5px 2px darkred;
+}
+h1#username {
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    box-shadow: 2.5px 2.5px black;
+    border-radius: 5px;
+}
+div.questions {
+    padding: 45px;
+}
+p#questioninfo.questionContent {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    height: 80px;
+    width: auto;
+    padding: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    background-color: red;
+    text-align: center;
+    text-shadow: 1.5px 1.5px black;
+    box-shadow: 1.5px 2px black;
+    vertical-align: middle;
+}
+button#a.answers {
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 250px;
+}
+button#b.answers {
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 250px;
+}
+button#c.answers {
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 250px;
+}
+button#d.answers {
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 250px;
+}
+button {
+    background-color: white;
+    border-style: solid;
+    border-color: red;
+    box-shadow: 1px 1.5px aqua;
+    border-radius: 5px;
+    border-width: 2px;
+    font-family: monospace;
+    font-size: x-large;
+    text-shadow: 1px 1px red;
+    font-weight: 600;
+    padding: auto;
+}
+footer {
+    padding: auto;
+    margin: auto;
+}
+.showresult {
+    background-color: red;
+    border-radius: 5px;
+    margin: 10px;
+}
+h4 {
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+    font-weight: 700;
+}
+p#percent {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.playagain {
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    border-style: 1px solid;
+    border-color: white;
+    padding: auto;
+    margin: 20px;
+}
+#playagain.text-align.left {
+    padding: 5px;
+    margin: 2px;
+}
+button.text-align.right {
+    padding: 5px;
+    margin: 20px;
+}
+.bottomimage {
+    background-image: url("https://i.pinimg.com/originals/10/74/1a/10741a52d7836da2a625283986575702.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table-cell;
+}
