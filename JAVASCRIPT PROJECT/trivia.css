@@ -3,6 +3,15 @@ html {
     margin: auto;
     display: table;
 }
+#cornercontent {
+    border: 0.1px solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    margin: -410px;
+    padding: auto;
+    position: relative;
+}
 title {
     color: white;
     text-align: center;
@@ -24,7 +33,7 @@ header {
     text-align: center;
 }
 main {
-    position: relative;
+    vertical-align: top;
 }
 h1 {
     border: 2px white;
@@ -38,13 +47,16 @@ h2 {
     padding: 2px;
     color: white;
     background-color: red;
+    text-align: center;
     text-shadow: 2px 2px black;
-    box-shadow: 1.5px 2px black;
+    box-shadow: 2px 2px darkred;
 }
 h2#questioncounter {
     border-style: solid;
     border-color: white;
-    padding: 2px;
+    padding: 10px;
+    margin: auto;
+    height: 45px;
     color: white;
     background-color: red;
     text-shadow: 2px 2px black;
@@ -58,22 +70,24 @@ h3 {
 div {
     width: 300px;
     margin: auto;
+    padding: -5px;
+    width: 500px;
+    text-align: center;
 }
 p {
     color: red;
     text-align: center;
+    padding: 5px;
 }
 label {
     color: red;
 }
-button {
-    background-color: skyblue;
-}
-button#startbutton {
-    text-align: center;
-}
-.showresult {
-    display: none;
+div.showresult {
+    margin: auto;
+    width: 300px;
+    border-style: solid;
+    border-color: white;
+    text-shadow: 1.5px 1.5px black;
 }
 .start {
     border: 2px black;
@@ -88,18 +102,20 @@ button#startbutton {
 .username {
     font-family: fantasy;
 }
-#startbutton {
-    height: 20px;
-    width: 75px;
+button#startbutton {
+    height: 30px;
+    width: 120px;
 }
 div.pageTitle {
     border-style: solid;
     border-color: white;
-    padding: 2px;
+    width: 500px;
+    margin: 50px;
+    padding: 20px;
     color: white;
     background-color: red;
     text-shadow: 2px 2px black;
-    box-shadow: 1.5px 2px black;
+    box-shadow: 2.5px 3px black;
     border-radius: 5px;
 }
 h3.center {
@@ -109,38 +125,45 @@ h3.center {
     color: white;
     background-color: red;
     text-shadow: 2px 2px black;
-    box-shadow: 1.5px 2px black;
+    box-shadow: 2.5px 3px black;
     border-radius: 5px;
 }
 p.center {
-    padding: 1px;
+    padding: 20px;
     color: white;
-    text-align: left;
+    text-align: center;
     font-weight: 700;
-    text-shadow: 2px 2px black;
+    text-shadow: 1.5px 2px darkred;
 }
 h1#username {
     border-style: solid;
     border-color: white;
-    padding: 2px;
+    padding: 10px;
+    height: 50px;
     color: white;
+    font-weight: bolder;
     background-color: red;
     text-shadow: 2px 2px black;
-    box-shadow: 1.5px 2px black;
+    box-shadow: 2.5px 2.5px black;
     border-radius: 5px;
+}
+div.questions {
+    padding: 250px;
 }
 p#questioninfo.questionContent {
     border-style: solid;
     border-color: white;
     border-radius: 5px;
-    height: 50px;
+    height: 80px;
     width: auto;
-    padding: 2px;
+    padding: 20px;
     color: white;
-    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
     background-color: red;
     text-align: center;
-    text-shadow: 2px 2px black;
+    text-shadow: 1.5px 1.5px black;
     box-shadow: 1.5px 2px black;
     vertical-align: middle;
 }
@@ -148,19 +171,72 @@ button#a.answers {
     color: black;
     font-weight: bold;
     border-radius: 5px;
+    width: 250px;
 }
 button#b.answers {
     color: black;
     font-weight: bold;
     border-radius: 5px;
+    width: 250px;
 }
 button#c.answers {
     color: black;
     font-weight: bold;
     border-radius: 5px;
+    width: 250px;
 }
 button#d.answers {
     color: black;
     font-weight: bold;
     border-radius: 5px;
+    width: 250px;
+}
+button {
+    background-color: white;
+    border-style: solid;
+    border-color: red;
+    box-shadow: 1px 1.5px aqua;
+    border-radius: 5px;
+    border-width: 2px;
+    font-family: monospace;
+    font-size: x-large;
+    text-shadow: 1px 1px red;
+    font-weight: 600;
+    padding: auto;
+}
+footer {
+    padding: auto;
+    margin: auto;
+}
+.showresult {
+    background-color: red;
+    border-radius: 5px;
+}
+h4 {
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+    font-weight: 700;
+}
+p#percent {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.playagain {
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    border-style: 1px solid;
+    border-color: white;
+}
+#playagain.text-align.left {
+    padding: 0px;
+    margin: 2px;
+}
+.bottomimage {
+    background-image: url("https://i.pinimg.com/originals/10/74/1a/10741a52d7836da2a625283986575702.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table-cell;
 }
